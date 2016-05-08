@@ -63,3 +63,7 @@ target/
 
 # PyCharm Files
 .idea/
+
+# Eclipse Files
+.metadata/
+RemoteSystemsTempFiles/
