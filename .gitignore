@@ -67,3 +67,8 @@ target/
 # Eclipse Files
 .metadata/
 RemoteSystemsTempFiles/
+
+# C Files
+Debug/
+.cproject
+.project
