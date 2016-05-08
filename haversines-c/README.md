@@ -1,3 +1,3 @@
-# Spread Knowledge Repository
+# Haversines-C
 
-SKR is a repository to share knowledge. Here I will put pieces of codes that might help anyone.
+Haversines-C is the implementation of the Haversines formula using pure C.
