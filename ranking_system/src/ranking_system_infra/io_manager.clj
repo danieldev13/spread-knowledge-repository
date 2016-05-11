@@ -1,6 +1,6 @@
-(ns reward-system-infra.io-manager
+(ns ranking-system-infra.io-manager
   (:use [clojure.java.io]
-        [reward-system-infra.configuration-manager])
+        [ranking-system-infra.configuration-manager])
   (:import [java.io File])
   )
 

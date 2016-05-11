@@ -1,4 +1,4 @@
-(ns reward-system-business.ranking-manager
+(ns ranking-system-business.ranking-manager
   (:require [clojure.java.io :as io]
             [clojure.string :as string])
   )

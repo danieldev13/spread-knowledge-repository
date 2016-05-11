@@ -1,8 +1,8 @@
-(ns reward-system.views
+(ns ranking-system.views
   (:require [hiccup.page :as hpage]
             [clojure.data.json :as json])
-  (:use [reward-system-business.ranking-manager :as controller]
-        [reward-system-infra.configuration-manager])
+  (:use [ranking-system-business.ranking-manager :as controller]
+        [ranking-system-infra.configuration-manager])
   )
 
 (defn show-ranking []

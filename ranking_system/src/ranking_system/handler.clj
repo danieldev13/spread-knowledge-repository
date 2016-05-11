@@ -1,8 +1,8 @@
-(ns reward-system.handler
+(ns ranking-system.handler
   (:require [compojure.core :as cc]
             [compojure.route :as route]
             [ring.middleware.defaults :refer [wrap-defaults site-defaults]]
-            [reward-system.views :as views]
+            [ranking-system.views :as views]
             )
   (:use [ring.middleware.params]
         [ring.middleware.multipart-params]
@@ -10,8 +10,8 @@
         [ring.util.response]
         [clojure.java.io]
         [compojure.handler]
-        [reward-system-business.ranking-manager]
-        [reward-system-infra.io-manager])
+        [ranking-system-business.ranking-manager]
+        [ranking-system-infra.io-manager])
   )
 
 ;; Routes for the application
