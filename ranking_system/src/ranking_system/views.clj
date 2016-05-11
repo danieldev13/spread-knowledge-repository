@@ -18,7 +18,7 @@
 
 (defn render-head [title]
   [:head
-   [:title "Nubak Reward System - " title]
+   [:title "Ranking System - " title]
    (hpage/include-css "/css/site.css")
    ])
 
