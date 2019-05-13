@@ -12,6 +12,7 @@ def run():
 
         compress(settings.equities_file_path)
         send(settings.equities_file_path, settings.equities_file_name)
+        
     except Exception as err:
         raise err
 
